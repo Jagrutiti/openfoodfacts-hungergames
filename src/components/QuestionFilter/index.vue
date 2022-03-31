@@ -89,13 +89,26 @@
           <sui-dropdown
             :options="populateBrandFilter ? brands : []"
             v-model="formValues.brandFilter"
-            :text="$t('questions.filters.placeholders.brand')"
+            :text="$t('questions.filters.placeholders.store')"
             search
             fluid
             selection
             v-on:filtered="setPopulateBrandFilter"
           />
         </div>
+
+        <div class="field">
+          <label>{{ $t("questions.filters.long_label.store") }}</label>
+          <sui-dropdown
+            :options="populateBrandFilter ? brands : []"
+            v-model="formValues.brandFilter"
+            :text="$t('questions.filters.placeholders.brand')"
+            search
+            fluid
+            selection
+            v-on:filtered="setPopulateBrandFilter"
+          />
+        </div>        
 
         <div class="ui segment">
           <div class="field">

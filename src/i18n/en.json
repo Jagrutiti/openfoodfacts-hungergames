@@ -33,11 +33,13 @@
         "country": "Product Country",
         "brand": "Product Brand",
         "popularity": "Sort by popularity",
-        "edit": ""
+        "edit": "",
+        "store": "Store"
       },
       "placeholders": {
         "value": "Value (fanta, en:organic,...)",
-        "brand": "auchan, danone, herta, ..."
+        "brand": "auchan, danone, herta, ...",
+        "store": "auchan"
       },
       "actions": {
         "edit": "Edit Filters",
